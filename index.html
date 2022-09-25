@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Registro Cliente</title>
+	<title>Inicio</title>
 </head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-<script type="text/javascript" src="Proyecto-reto2.js"></script>
+<script type="text/javascript" src="js/Clientes.js"></script>
+
 <body>
 
 	<!-- div generado por canva-->
@@ -20,21 +21,35 @@ border-radius: 8px; will-change: transform;">
 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFNAOL15bs&#x2F;view?utm_content=DAFNAOL15bs&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Copia de MOTO RENT</a> de MIGUEL ANGEL AROSEMENA VELASCO
 
 	alt ""/>
+	
+	--- Tratando de hacer un botón
+	<a target="_blank" class="fcc-btn" href="paginas/formularioclientes.html">CLIENTES</a>
+	en css
+		.fcc-btn {
+			background-color: #199319;
+			color: white;
+			padding: 15px 25px;
+			text-decoration: none;
+		  }
 -->
 
+<h1 align="center" style="background-color:tomato"> Página de Inicio</h1>
 
+	<p align="center">
 
-	<h1 align="left" style="background-color:tomato"> Formulario Clientes</h1>
+		  <a href="pagclientes.html">
+			<button>CLIENTES</button>
+		  </a>
 
-	<p align="left">
-		Id de Cliente:     |<input type="number" id="idCliente"><br>
-		Nombre de Cliente: |<input type="text" id="nombreCliente"><br>
-		Correo de Cliente: |<input type="text" id="mailCliente"><br>
-		Edad de Cliente:   |<input type="number" id="edadCliente"><br>
-		<button onclick="guardarCliente()">REGISTRAR CLIENTE</button>
-	    <button onclick="editarCliente()">ACTUALIZAR CLIENTE</button>
-	    <button onclick="leerClientes()">TRAER CLIENTES</button>
+		  <a href="pagmotos.html">
+			<button>INGRESAR MOTOS</button>
+		  </a>
+
+		  <a href="pagmensajes.html">
+			<button>MENSAJES</button>
+		  </a>
 	</p>
+
 	
 
 	<div id="listaClientes">

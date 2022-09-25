@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registro Mensajes</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="codMensajes.js"></script>
+<body>
+
+
+	<h1 align="left" style="background-color:burlywood"> Mensajes</h1>
+
+	<p align="left">
+		Id Mensaje:     |<input type="number" id="idMensaje"><br>
+		Mensaje: |<input type="text" id="textoMensaje"><br>
+		<button onclick="guardarMensaje()">REGISTRAR MENSAJE</button>
+	    <button onclick="editarMensaje()">ACTUALIZAR MENSAJE</button>
+	    <button onclick="leerMensajes()">TRAER MENSAJES</button>
+	</p>
+	
+
+	<div id="listaMensajes">
+	</div>
+	
+	<li><a class="fcc-btn" href="index.html">Regresar inicio</a></li>
+	<li><a class="fcc-btn" href="pagclientes.html">Registrar Clientes</a></li>
+	<li><a class="fcc-btn" href="pagmotos.html">Registrar Motos</a></li>
+	
+
+</body>
+</html>

@@ -50,10 +50,10 @@ function leerClientes(){
         $.ajax({    
             url : 'https://gdcbf67e56bd91d-motorent.adb.sa-saopaulo-1.oraclecloudapps.com/ords/admin/client/client',
             type : 'POST',
-            dataType : 'JSON',
+            //dataType : 'JSON',
             data:dataToSend,
             contentType:'application/JSON',
-            success : function(ejecuciejecucion) {
+            success : function(limpiar) {
                 //Una vez el cliente sea creado éxitosamente vacíar los inputs del html
                 $("#idCliente").val("");
                 $("#nombreCliente").val("");
@@ -93,7 +93,7 @@ function leerClientes(){
          //   dataType : 'json',
             data:dataToSend,
             contentType:'application/json',
-            success : function(ejecucion) {
+            success : function(limpiar) {
                 $("#idCliente").val("");
                 $("#nombreCliente").val("");
                 $("#mailCliente").val("");
@@ -124,7 +124,7 @@ function leerClientes(){
          //   dataType : 'json',
             data:dataToSend,
             contentType:'application/json',
-            success : function(pepito) {
+            success : function(limpiar) {
                 $("#idCliente").val("");
                 $("#nombreCliente").val("");
                 $("#mailCliente").val("");

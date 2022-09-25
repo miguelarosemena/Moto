@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registro Motocicletas</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="codMotos.js"></script>
+<body>
+
+
+	<h1 align="left" style="background-color:gray"> Formulario Motocicletas</h1>
+
+	<p align="left">
+		ID Motocicleta:     |<input type="number" id="idMoto"><br>
+		Nombre: |<input type="text" id="nombreMoto"><br>
+		Marca: |<input type="text" id="marcaMoto"><br>
+		Modelo: |<input type="number" id="modeloMoto"><br>
+		ID Categoría:   |<input type="number" id="categoriaId"><br>
+		<button onclick="guardarMoto()">REGISTRAR MOTOCICLETA</button>
+	    <button onclick="editarMoto()">ACTUALIZAR MOTOCICLETA</button>
+	    <button onclick="leerMotos()">TRAER MOTOCICLETAS</button>
+	</p>
+	
+
+	<div id="listaMotos">
+	</div>
+
+	<li><a class="fcc-btn" href="index.html">Regresar inicio</a></li>
+	<li><a class="fcc-btn" href="pagclientes.html">Registrar Clientes</a></li>
+	<li><a class="fcc-btn" href="pagmensajes.html">Registrar Mensajes</a></li>
+	
+</body>
+</html>
